@@ -65,6 +65,21 @@ class WidgetDemo extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Dion Ikhzanza Rabbil (Button)'),
               ),
+              SizedBox(height: 20),
+              Stack(
+                alignment: Alignment.center,
+                children: [
+                  Image.network(
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3QHNiAHBWExvXQK0OVha9o9IP_W9gjGhtQcbwwzdzmQ&s',
+                    width: 200,
+                    height: 200,
+                  ),
+                  Text(
+                    'Dion Ikhzanza Rabbil (Image)',
+                    style: TextStyle(fontSize: 20, color: Colors.red),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
