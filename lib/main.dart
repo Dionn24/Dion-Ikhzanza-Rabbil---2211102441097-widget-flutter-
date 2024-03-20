@@ -39,6 +39,19 @@ class WidgetDemo extends StatelessWidget {
                   color: Color.fromARGB(255, 117, 43, 221),
                 ),
               ),
+              SizedBox(height: 20),
+              Container(
+                padding: EdgeInsets.all(10),
+                margin: EdgeInsets.symmetric(vertical: 10),
+                decoration: BoxDecoration(
+                  color: Color.fromARGB(255, 228, 3, 146),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Text(
+                  'Dion Ikhzanza Rabbil (Container)',
+                  style: TextStyle(color: const Color.fromARGB(255, 170, 1, 1)),
+                ),
+              ),
             ],
           ),
         ),
