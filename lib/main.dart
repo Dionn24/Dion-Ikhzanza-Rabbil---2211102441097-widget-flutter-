@@ -30,6 +30,15 @@ class WidgetDemo extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Text(
+                'Dion Ikhzanza Rabbil (Text)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  fontStyle: FontStyle.italic,
+                  color: Color.fromARGB(255, 117, 43, 221),
+                ),
+              ),
             ],
           ),
         ),
