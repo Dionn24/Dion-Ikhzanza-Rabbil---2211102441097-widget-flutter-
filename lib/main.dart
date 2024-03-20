@@ -80,6 +80,22 @@ class WidgetDemo extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: AspectRatio(
+                  aspectRatio: 16 / 9,
+                  child: Container(
+                    color: Colors.red,
+                    child: Center(
+                      child: Text(
+                        'Dion Ikhzanza Rabbil (Aspek Rasio)',
+                        style: TextStyle(fontSize: 20, color: Colors.red),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
