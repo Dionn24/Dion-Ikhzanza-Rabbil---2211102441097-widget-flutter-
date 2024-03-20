@@ -96,6 +96,17 @@ class WidgetDemo extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 20),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: 10,
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      title: Text('Item $index'),
+                    );
+                  },
+                ),
+              ),
             ],
           ),
         ),
