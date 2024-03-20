@@ -52,6 +52,19 @@ class WidgetDemo extends StatelessWidget {
                   style: TextStyle(color: const Color.fromARGB(255, 170, 1, 1)),
                 ),
               ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.house, color: Color.fromARGB(255, 191, 217, 0)),
+                  SizedBox(width: 10),
+                  Icon(Icons.money_off, color: Color.fromARGB(255, 57, 121, 136)),
+                ],
+              ),
+              SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text('Dion Ikhzanza Rabbil (Button)'),
+              ),
             ],
           ),
         ),
